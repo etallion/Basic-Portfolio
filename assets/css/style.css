@@ -71,6 +71,7 @@ img {
 
 .nav-link{
     padding-top: 25px;
+    color: lightgray;
 
 }
 
@@ -91,7 +92,8 @@ color:gray;
 .image-container{
 position: relative;
 background-color: white;
-align-content: center;
+/* align-content: center; */
+margin: 0px 0px 20px 0px;
 }
 
 .image-text-box{
@@ -101,4 +103,14 @@ right: 200px;
 background-color: teal;
 color: white;
 
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background-color: white;
+    padding-top: 20px;
 }
