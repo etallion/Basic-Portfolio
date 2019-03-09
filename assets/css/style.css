@@ -1,5 +1,5 @@
 :root{
-    --main-color: hotpink;
+    --main-color: white;
 
 }
 
@@ -26,6 +26,8 @@ header{
     background-color: white;
     min-width: 0%;
     max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 nav{
@@ -38,13 +40,7 @@ nav{
     display: inline-block;
 }
 
-a{
-    padding: 10px 10px 10px 10px;
-}
 
-a:hover{
-    background-color: blueviolet;
-}
 
 img {
     float: left;
@@ -52,7 +48,8 @@ img {
 }
 
 .btn{
-    padding: 50px 50px 50px 50px;
+    /* padding: 50px 50px 50px 50px; */
+    background-color: teal;
 }
 
 .clearfix{
@@ -63,4 +60,45 @@ img {
     background-color: white;
     margin-top: 30px;
     padding: 20px 20px 20px 20px;
+}
+
+.line{
+    background-color: lightgray;
+    height: 2px;
+    margin: 0px 0px 20px 0px;
+
+}
+
+.nav-link{
+    padding-top: 25px;
+
+}
+
+
+
+a{
+    padding: 50px 10px 10px 10px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:visited{
+color:gray;
+}
+
+.image-container{
+position: relative;
+background-color: white;
+align-content: center;
+}
+
+.image-text-box{
+position: absolute;
+top: 150px;
+right: 200px;
+background-color: teal;
+color: white;
+
 }
