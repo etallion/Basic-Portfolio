@@ -1,0 +1,66 @@
+:root{
+    --main-color: hotpink;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 100;
+    letter-spacing: 1.2px;
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/full-bloom.png");
+    
+}
+
+header{
+    width: 100%;
+    align-content: center;
+    color: var(--main-color);
+    border-bottom-width: 2px;
+    border-color: gray;
+}
+
+.porthead{
+    margin: 0px auto;
+    background-color: white;
+    min-width: 0%;
+    max-width: 100%;
+}
+
+nav{
+    float:right;
+}
+
+.name-block{
+    background-color: #4aaaa5;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+a{
+    padding: 10px 10px 10px 10px;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+img {
+    float: left;
+    margin-right:20px;
+}
+
+.btn{
+    padding: 50px 50px 50px 50px;
+}
+
+.clearfix{
+    overflow: auto;
+}
+
+.main{
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+}
