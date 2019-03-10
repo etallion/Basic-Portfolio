@@ -60,6 +60,7 @@ img {
     background-color: white;
     margin-top: 30px;
     padding: 20px 20px 20px 20px;
+    margin-bottom: 80px;
 }
 
 .line{
@@ -72,17 +73,15 @@ img {
 .nav-link{
     padding-top: 25px;
     color: lightgray;
-
 }
 
-
-
 a{
-    padding: 50px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 
 a:hover{
     color: aqua;
+    background-color: azure;
 }
 
 a:visited{
@@ -94,15 +93,17 @@ position: relative;
 background-color: white;
 /* align-content: center; */
 margin: 0px 0px 20px 0px;
+width: 300px;
+overflow-x: hidden;
 }
 
 .image-text-box{
 position: absolute;
-top: 150px;
-right: 200px;
+top: 165px;
+text-align: center;
 background-color: teal;
 color: white;
-
+width:100%;
 }
 
 footer{
