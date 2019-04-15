@@ -114,6 +114,10 @@ width: 300px;
 overflow-x: hidden;
 }
 
+.imgPort:hover{
+    width: 350px; animation: 1s;
+}
+
 .image-text-box{
 position: absolute;
 top: 165px;
